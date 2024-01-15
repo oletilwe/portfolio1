@@ -1,0 +1,51 @@
+body {
+    /*background-color: #C3E2C2;*/
+    background-image: url(./background-img.jpg);
+}
+
+.container {
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #CD8D7A;
+}
+
+p {
+    color: #CD8D7A;
+}
+
+.About {
+    color: #CD8D7A;
+    text-align: center;
+}
+
+
+
+.text {
+    font-size: large;
+}
+
+.skills {
+    color: #CD8D7A;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.heading1 {
+    color: #CD8D7A;
+    text-align: center;
+}  
+
+.container1 {
+    font: 300;
+}
+
+.list {
+    color: black;
+}
+
