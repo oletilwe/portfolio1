@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Home Page</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    
+    
+     <section class="profile">
+      <div class="section__pic-container">
+        <img src="./Image 1.JPG" alt="Oletilwe profile picture" />
+    </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello and welcome to my Portfolio my name is :</p>
+        <h1 class="title">Oletilwe Lephalala</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+        <button 
+            class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+            Download CV
+        </button>
+        <button
+        class="btn btn-color-1" onclick="location.href='./#contact'">
+        Contact Info
+        </button>
+        </div>
+        <div id="socials-container">
+            <img src="./assert/linkedin.png" alt="My linkedin Profile" class="icon" onclick="location.href='https:www.linkedin.com/in/oletilwe-lephalala-214941280'"/>
+            <img src="./assert/github.png" alt="My github Profile" class="icon" onclick="location.href='https:github.com/oletilwe'"/>
+        </div>
+    </div>
+     </section>    
+      <section id="about">
+          <h1 class="heading">Get to know me</h1>
+          <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                  <img src="./Image 1.png" alt="profile-pic"/>
+                  <h3>Experience</h3>
+                  <p>2+ <br />Frontend Development</p>
+                </div>
+                <div class="details-container">
+                  <img src="./Image 1.JPG" alt="profile-pic" />
+                  <h3>Education</h3>
+                  <p>2+ <br />Frontend Development</p>
+                </div>
+                <div class="text-container">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa modi neque unde. Fugit cum placeat soluta magnam quibusdam. 
+                      Sit maxime minima beatae libero enim reprehenderit natus ullam placeat ea labore?</p>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section id="skills">
+        <h1 class="heading">Skills</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+             <h2 class="experience-sub-title">Frontend Development</h2>
+             <div class="article-container">
+              <article>
+                <div>
+                  <img src="./assert/checkmark.png" alt="Experience icon" class="icon" />
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <div>
+                  <img src="./assert/checkmark.png" alt="Experience icon" class="icon" />
+                  <h3>css</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <div>
+                  <img src="./assert/checkmark.png" alt="Experience icon" class="icon" />
+                  <h3>Javascript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+             </div>
+            </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                      <article>
+                        <img src="./assert/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                          <h3>postgreSQL</h3>
+                          <p>Intermediate</p>
+                        </div>
+                      </article>
+
+                      <article>
+                        <img src="./assert/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                          <h3>Git</h3>
+                          <p>Intermediate</p>
+                        </div>
+                      </article>
+
+                      <article>
+                        <img src="./assert/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                          <h3>Node Js</h3>
+                          <p>Intermediate</p>
+                        </div>
+                      </article>
+                    </div>
+                </div>
+          </div>
+
+        </div>
+      </section>     
+      <section id="projects">
+        <h1 class="title">projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                  <img src="./assets/project-1.png" alt="project 1" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">project 1</h2>
+              <div class="btn-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                      Github
+                  </button>
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                      Live Demo
+                  </button>
+
+              </div>
+          </div>
+          </div>
+        </div>
+      </section>  
+      <section id="contact">
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assert/email.png" alt="email icon" class="icon contact-icon email-icon" />
+                <p><a href="oletilwelephalala8@gmail.com">email</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assert/linkedin.png" alt="linkedin icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/oletilwe-lephalala-214941280/">linkedin</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2024 Oletilwe Lephalala. All Rights Reserved</p>
+        </footer>
+
+</body>
+</html>
